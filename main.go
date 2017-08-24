@@ -1,11 +1,11 @@
 package main
 
 import (
-	_ "github.com/tarent/loginsrv/htpasswd"
-	_ "github.com/tarent/loginsrv/httpupstream"
-	_ "github.com/tarent/loginsrv/osiam"
+	_ "github.com/itsyouonline/loginsrv/htpasswd"
+	_ "github.com/itsyouonline/loginsrv/httpupstream"
+	_ "github.com/itsyouonline/loginsrv/osiam"
 
-	"github.com/tarent/loginsrv/login"
+	"github.com/itsyouonline/loginsrv/login"
 
 	"context"
 	"fmt"
@@ -14,7 +14,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/tarent/loginsrv/logging"
+	"github.com/itsyouonline/loginsrv/logging"
 )
 
 const applicationName = "loginsrv"

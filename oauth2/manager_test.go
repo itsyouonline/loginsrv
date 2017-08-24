@@ -4,7 +4,7 @@ import (
 	"crypto/tls"
 	"errors"
 	. "github.com/stretchr/testify/assert"
-	"github.com/tarent/loginsrv/model"
+	"github.com/itsyouonline/loginsrv/model"
 	"net/http"
 	"net/http/httptest"
 	"testing"

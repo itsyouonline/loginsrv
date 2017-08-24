@@ -4,7 +4,7 @@ loginsrv is a standalone minimalistic login server providing a [JWT](https://jwt
 
 [![Docker](https://img.shields.io/docker/pulls/tarent/loginsrv.svg)](https://hub.docker.com/r/tarent/loginsrv/)
 [![Build Status](https://api.travis-ci.org/tarent/loginsrv.svg?branch=master)](https://travis-ci.org/tarent/loginsrv)
-[![Go Report Card](https://goreportcard.com/badge/github.com/tarent/loginsrv)](https://goreportcard.com/report/github.com/tarent/loginsrv)
+[![Go Report Card](https://goreportcard.com/badge/github.com/itsyouonline/loginsrv)](https://goreportcard.com/report/github.com/itsyouonline/loginsrv)
 [![Coverage Status](https://coveralls.io/repos/github/tarent/loginsrv/badge.svg?branch=master)](https://coveralls.io/github/tarent/loginsrv?branch=master)
 [![Join the chat at https://gitter.im/tarent/loginsrv](https://badges.gitter.im/tarent/loginsrv.svg)](https://gitter.im/tarent/loginsrv?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
@@ -263,7 +263,7 @@ $ docker run -p 80:80 tarent/loginsrv -github client_id=xxx,client_secret=yyy
 ## Templating
 
 A custom template can be supplied by the parameter `template`. 
-You can find the original template in [login/login_form.go](https://github.com/tarent/loginsrv/blob/master/login/login_form.go).
+You can find the original template in [login/login_form.go](https://github.com/itsyouonline/loginsrv/blob/master/login/login_form.go).
 
 The templating uses the golang build in template language. A short intro can be found [here](https://astaxie.gitbooks.io/build-web-application-with-golang/en/07.4.html).
 

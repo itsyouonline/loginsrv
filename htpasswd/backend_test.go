@@ -2,7 +2,7 @@ package htpasswd
 
 import (
 	. "github.com/stretchr/testify/assert"
-	"github.com/tarent/loginsrv/login"
+	"github.com/itsyouonline/loginsrv/login"
 	"strings"
 	"testing"
 )

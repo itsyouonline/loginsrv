@@ -5,7 +5,7 @@ import (
 	"github.com/mholt/caddy"
 	"github.com/mholt/caddy/caddyhttp/httpserver"
 	. "github.com/stretchr/testify/assert"
-	"github.com/tarent/loginsrv/login"
+	"github.com/itsyouonline/loginsrv/login"
 	"io/ioutil"
 	"os"
 	"testing"

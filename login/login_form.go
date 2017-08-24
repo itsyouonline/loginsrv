@@ -2,8 +2,8 @@ package login
 
 import (
 	"bytes"
-	"github.com/tarent/loginsrv/logging"
-	"github.com/tarent/loginsrv/model"
+	"github.com/itsyouonline/loginsrv/logging"
+	"github.com/itsyouonline/loginsrv/model"
 	"html/template"
 	"io/ioutil"
 	"net/http"

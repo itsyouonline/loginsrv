@@ -1,8 +1,8 @@
 package osiam
 
 import (
-	"github.com/tarent/loginsrv/logging"
-	"github.com/tarent/loginsrv/login"
+	"github.com/itsyouonline/loginsrv/logging"
+	"github.com/itsyouonline/loginsrv/login"
 )
 
 // OsiamProviderName const with the name of the provider

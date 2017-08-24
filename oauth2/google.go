@@ -3,7 +3,7 @@ package oauth2
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/tarent/loginsrv/model"
+	"github.com/itsyouonline/loginsrv/model"
 	"io/ioutil"
 	"net/http"
 	"strings"
