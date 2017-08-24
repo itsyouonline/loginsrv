@@ -115,6 +115,7 @@ func getAccessToken(cfg Config, state, code string) (TokenInfo, error) {
 	values.Set("code", code)
 	values.Set("redirect_uri", cfg.RedirectURI)
 	values.Set("grant_type", "authorization_code")
+	values.Set("state", state)
 
 	r, _ := http.NewRequest("POST", cfg.TokenURL, strings.NewReader(values.Encode()))
 	cntx, cancel := context.WithTimeout(context.Background(), defaultTimeout)
